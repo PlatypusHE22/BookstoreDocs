@@ -1,6 +1,5 @@
 # Könyvesbolt kezelési rendszer
 ## Tartalomjegyzék
-
 1. [Bevezetés](#1-bevezetés)
    1. [Projekt háttere](#11-projekt-háttere)
    2. [Projekt céljai](#12-projekt-céljai)
@@ -14,17 +13,26 @@
    3. [Hardverkövetelmények](#23-hardverkövetelmények)
    4. [Szoftverkövetelmények](#24-szoftverkövetelmények)
 3. [Tervezés és ütemezés](#3-tervezés-és-ütemezés)
-4. [Használt technológiák](#6-használt-technológiák)
+4. [Használt technológiák](#4-használt-technológiák)
    1. [Frontend](#frontend)
    2. [Backend](#backend)
-5. [Rendszerszervezés](#7-rendszerszervezés)
-6. [Adatbázis struktúra](#8-adatbázis-struktúra)
-    - [Admin](#admin)
-    - [Book](#book)
-    - [Category](#category)
-    - [Contact](#contact)
-    - [Register](#register)
-    - [Order](#order)
+5. [Rendszerszervezés](#5-rendszerszervezés)
+6. [Adatbázis struktúra](#6-adatbázis-struktúra)
+   - [Admin](#admin)
+   - [Book](#book)
+   - [Category](#category)
+   - [Contact](#contact)
+   - [Register](#register)
+   - [Order](#order)
+7. [Weboldal](#7-weboldal)
+   - [Főoldal](#főoldal)
+   - [Kategóriára szűrve](#kategóriára-szűrve)
+   - [Könyv részletek](#könyv-részletek)
+   - [Bejelentkezés](#bejelentkezés)
+   - [Regisztráció](#regisztráció)
+   - [Elérhetőségek](#elérhetőségek)
+   - [Kosár](#kosár)
+   - [Rendelés](#rendelés)
 
 
 
@@ -125,7 +133,7 @@ A fenti ütemterv meghatározza a különböző szoftverfejlesztési fázisokhoz
 
 
 
-## 6. Használt technológiák
+## 4. Használt technológiák
 ### Frontend
 1. HTML
 2. CSS
@@ -135,7 +143,7 @@ A fenti ütemterv meghatározza a különböző szoftverfejlesztési fázisokhoz
 1. PHP
 2. MySQL
 
-## 7. Rendszerszervezés
+## 5. Rendszerszervezés
 ### Weboldal
 Weboldal folyamatábra
 ![Weboldal folyamatábra](img/website_flow.png)
@@ -149,7 +157,7 @@ Weboldal használati eset diagram
 Rendszer használati eset diagram
 ![Rendszer használati eset diagram](img/system_use_case.png)
 
-## 8. Adatbázis struktúra
+## 6. Adatbázis struktúra
 A következő táblázatok léteznek:
 - Admin
 - Book
@@ -215,3 +223,27 @@ A következő táblázatok léteznek:
 | O_mobile   | Bigint(20)   | Mobiltelefonszám tárolására               |
 | O_rid     | Int(8)       | Regisztrációs ID tárolására                |
 
+## 7. Weboldal
+### Főoldal
+![Főoldal](img/main_page.png)
+
+### Kategóriára szűrve
+![Kategóriára szűrve](img/category_page.png)
+
+### Könyv részletek
+![Könyv részletek](img/book_details.png)
+
+### Bejelentkezés
+![Bejelentkezés](img/login_page.png)
+
+### Regisztráció
+![Regisztráció](img/register_page.png)
+
+### Elérhetőségek
+![Elérhetőségek](img/contact_page.png)
+
+### Kosár
+![Kosár](img/cart_page.png)
+
+### Rendelés
+![Rendelés](img/order_page.png)
